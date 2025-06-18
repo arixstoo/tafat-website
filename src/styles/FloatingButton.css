@@ -1,0 +1,36 @@
+.floating-buttons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 999;
+}
+
+.floating-button {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  border: #1a2433 2px solid;
+  box-shadow: 0 2px 10px #1a2433;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.floating-button:hover {
+  transform: scale(1.1);
+}
+
+.floating-button img {
+  width: 28px;
+  height: 28px;
+}
+
+.floating-button.secondary span {
+  font-size: 22px;
+}
