@@ -10,8 +10,7 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-brand">
           <div className="footer-logo">
-            <img src="/logo.png" alt="TAFAT ELECTRIQUE Logo" className="footer-logo-image" />
-            <h2 className="footer-title">TAFAT ELECTRIQUE</h2>
+            <img src="/logo.png" alt="TAFAT ELECTRIQUE Logo" className="footer-logo-image" /><h2 className="footer-title">TAFAT ELECTRIQUE</h2>
           </div>
           <p className="footer-slogan">Sécuriser, éclairer, protéger – votre sécurité pour demain</p>
           

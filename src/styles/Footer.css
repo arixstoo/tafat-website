@@ -30,6 +30,13 @@
     margin-right: 10px;
     color: #4fe0d0;
   }
+  .footer-logo-image{
+    width: 80px;
+    height: 80px;
+    /* background-color: #4fe0d0; */
+    /* margin: 0 auto; */
+    padding: 0 0px;
+  }
   
   .footer-title {
     font-size: 1.5rem;
